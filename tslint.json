@@ -1,0 +1,96 @@
+{
+    "rules":{
+        "comment1": "禁止行尾有空格",
+        "no-trailing-whitespace":false,
+
+        "comment2": "禁止无用的表达式",
+        "no-unused-expression":true,
+
+        "comment3": "定义过的变量必须使用",
+        "no-unused-variable":true,
+
+        "comment4": "变量必须先定义后使用",
+        "no-use-before-declare":true,
+
+        "comment5": "禁止无用的类型断言",
+        "no-unnecessary-type-assertion":true,
+
+        "comment6": "单行注释格式化规则",
+        "comment-format":[
+            true,
+            "check-space"],
+
+        "comment7": "if后面必须有{，除非是单行if",
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+
+        "comment8": "禁止在switch语句中出现重复测试表达式的case",
+        "no-duplicate-switch-case":true,
+        
+        "comment9": "禁止出现重复的变量定义或函数参数名",
+        "no-duplicate-variable":[
+            true,
+            "check-parameters"
+        ],
+
+        "comment10": "switch的case必须return或者break",
+        "no-switch-case-fall-through":true,
+
+        "comment11": "用四个空格代替一个缩进",
+        "indent":[
+            true,
+            "spaces",
+            4
+        ],
+
+        "comment12": "禁止出现重复的import",
+        "no-duplicate-imports":true,
+
+        "comment13": "import语句中，关键字之间的间距为一个空格",
+        "import-spacing":true,
+
+        "comment14": "接口可以implement, extend和merge",
+        "interface-over-type-literal":true,
+
+        "comment15": "new后面只必须有一个空格",
+        "new-parens":true,
+
+        "comment16": "禁止连续超过3行空行",
+        "no-consecutive-blank-lines":[
+            true,
+            3
+        ],
+
+        "comment17": "禁止使用特殊空白符（如全角空格）",
+        "no-irregular-whitespace":true,
+
+        "comment18": "小数必须以0.开头，不能以.开头，且不能以0结尾",
+        "number-literal-format":true,
+
+        "comment19": "if后的{禁止换行",
+        "one-line":true,
+
+        "comment20": "必须使用单引号，jsx中使用双引号",
+        "quotemark":[
+            true,
+            "single",
+            "jsx-double",
+            "avoid-template",
+            "avoid-escape"
+        ],
+
+        "comment21": "函数名前必须有空格",
+        "space-before-function-paren":[
+            true,
+            "asyncArrow"
+        ],
+
+        "comment22": "括号内首尾必须有空格",
+        "space-within-parens":[
+            true,
+            0
+        ]
+    }
+}

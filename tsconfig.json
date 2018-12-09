@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "target": "es6",
+        "jsx": "react",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modelues"
+    ]
+}

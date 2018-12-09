@@ -1,0 +1,81 @@
+{
+  "administrator": true,
+  "departments": [
+    {
+      "uuid": "20781de8-3fc4-4d4a-9396-799d4ead9be8",
+      "name": "部门1",
+      "activation": true,
+      "order": 1,
+      "administrator": true,
+      "stations": [
+        {
+          "uuid": "2aa5ef97-52d4-49df-927b-24981af98a04",
+          "name": "岗位1",
+          "activation": true,
+          "order": 1,
+          "administrator": true
+        },
+        {
+          "uuid": "2b90d80f-e039-447c-8c66-9cbafa5a73dd",
+          "name": "岗位2",
+          "activation": true,
+          "order": 2,
+          "administrator": true
+        },
+        {
+          "uuid": "1484f469-bd89-48c4-9ab5-d6efe91fb93e",
+          "name": "岗位3",
+          "activation": true,
+          "order": 3,
+          "administrator": true
+        }
+      ]
+    },
+    {
+      "uuid": "655d5dd5-597c-4ef8-815e-823668de1450",
+      "name": "部门2",
+      "activation": true,
+      "order": 2,
+      "administrator": true,
+      "stations": [
+        {
+          "uuid": "12c674a0-5fbf-48d0-ba13-b13393903029",
+          "name": "岗位4",
+          "activation": true,
+          "order": 4,
+          "administrator": true
+        },
+        {
+          "uuid": "fba1a57a-171b-4ee5-9739-c97a0010ff10",
+          "name": "岗位5",
+          "activation": true,
+          "order": 5,
+          "administrator": true
+        }
+      ]
+    },
+    {
+      "uuid": "c74fb9d2-6aa1-4b2e-bb26-dbf9aeddd16b",
+      "name": "部门3",
+      "activation": false,
+      "order": 3,
+      "administrator": true,
+      "stations": [
+        {
+          "uuid": "51a5a614-65c7-4061-9156-09e151c17ad4",
+          "name": "岗位6",
+          "activation": true,
+          "order": 6,
+          "administrator": true
+        }
+      ]
+    },
+    {
+      "uuid": "6cc1b0a2-d2cd-4167-b03c-08805bb8626b",
+      "name": "部门4",
+      "activation": true,
+      "order": 4,
+      "administrator": true
+    }
+  ]
+}
